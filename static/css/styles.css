@@ -1,0 +1,111 @@
+* { 
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.foto-personal {
+    background: url("../img/foto-personal.jpg") center;
+    background-size: cover;
+    width: 15rem;
+    border-radius: 10px;
+}
+
+.main-header {
+    border-top: 5px #000 solid;
+    background-color: #EEE;
+    text-align: center;
+    padding: 1.25rem 0;
+    color: #0095db;
+}
+
+.ficha-personal {
+    display: flex;
+    align-items: stretch;
+}
+
+.ficha-personal ul {
+    list-style: none;
+}
+
+.ficha-personal .foto-personal {
+    margin: 2.5rem;
+}
+
+.contenido {
+    margin: 2.5rem;
+    flex-grow: 1;
+}
+
+.contenido ul {
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contenido ul li p {
+    display: inline;
+}
+
+.form-entry {
+    font-weight: bold;
+}
+
+a:link {
+    text-decoration: underline;
+    color: #000;
+}
+
+a:visited {
+    color: #000
+}
+
+a:hover{
+    color: #0095db;
+}
+
+
+a:active {
+    color: #0095db;
+}
+
+footer {
+    background-color: #EEE;
+    height: 3rem;
+    border-bottom: 5px #000 solid;
+}
+
+footer .footer-logo {
+    background: url("../img/uade-logo.png") center no-repeat;
+    background-size: contain;
+    height: 3rem;
+}
+
+footer img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+@media (max-width: 768px) {
+
+    .ficha-personal {
+        display: block;
+    }
+
+    .ficha-personal .foto-personal {
+        height: 20rem;
+        margin: 2.5rem auto;
+    }
+
+    footer img {
+        width: 20%;
+        height: 10%;
+    }
+}
