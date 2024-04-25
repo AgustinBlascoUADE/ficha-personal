@@ -17,6 +17,10 @@ body {
     box-shadow: 0 2px 4px #0000001a;
 }
 
+.container {
+    display: block;
+}
+
 .main-header {
     border-top: 5px #000 solid;
     text-align: center;
@@ -97,6 +101,7 @@ footer img {
 
     .ficha-personal {
         display: block;
+        padding: 0.625rem;
     }
 
     .ficha-personal .foto-personal {
@@ -104,8 +109,4 @@ footer img {
         margin: 2.5rem auto;
     }
 
-    footer img {
-        width: 20%;
-        height: 10%;
-    }
 }
