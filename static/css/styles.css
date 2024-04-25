@@ -14,11 +14,11 @@ body {
     background-size: cover;
     width: 15rem;
     border-radius: 10px;
+    box-shadow: 0 2px 4px #0000001a;
 }
 
 .main-header {
     border-top: 5px #000 solid;
-    background-color: #EEE;
     text-align: center;
     padding: 1.25rem 0;
     color: #0095db;
@@ -27,6 +27,7 @@ body {
 .ficha-personal {
     display: flex;
     align-items: stretch;
+    background-color: #EEE;
 }
 
 .ficha-personal ul {
@@ -76,7 +77,6 @@ a:active {
 }
 
 footer {
-    background-color: #EEE;
     height: 3rem;
     border-bottom: 5px #000 solid;
 }
